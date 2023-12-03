@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.github-logo {
+    width: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+section.hero {
+    margin-top: -16px;
+    position: relative;
+    height: 420px;
+    background-color: black;
+    background-image: url(https://cdn.turkishairlines.com/m/6761929144cccc1e/original/anasayfa-1400.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.row {
+    margin-right: -5px!important;
+    margin-left: -5px!important;
+    display: flex;
+}
+
+.general-booker .booker-menu-wrapper .booker-menu{
+    display: flex;
+}
+
+.general-booker .booker-type-link {
+    color: #232b38 !important;
+    font-size: 14px;
+    outline: 0!important;
+    border-bottom: none;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 10px;
+}
+
+.general-booker .booker-type-link::before {
+    content: "";
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #00548a;
+    background-color: #fff;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    box-shadow: none;
+    margin: -6px 0 0;
+}
+
+.general-booker .booker-type-link::after {
+    content: "";
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -1px;
+    top: 4px;
+    z-index: 11;
+    background-color: #00548a;
+    opacity: 1;
+    display: block;
+    transform: scale(.5);
+    transition: 20.15s transform 
+}
+
+[role=button]{
+    cursor: pointer;
+}
+
+::after{
+    box-sizing: border-box;
+}
+
+.general-booker .mini-booker-link {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab-plane-label{
+    color: red;
+}
+
+.tab-checkin-label {
+    color: red;
+}
+
+.tab-flight-status-panel{
+    color: red;
+}
+
+li {
+    display: list-item;
+}
+
+.booker
+.nav.nav-tabs .nav-item
+.button-active{
+    color: red;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: .5rem;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}

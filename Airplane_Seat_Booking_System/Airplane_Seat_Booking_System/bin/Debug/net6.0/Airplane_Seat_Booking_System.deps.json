@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Airplane_Seat_Booking_System/1.0.0": {
+        "runtime": {
+          "Airplane_Seat_Booking_System.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Airplane_Seat_Booking_System/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
